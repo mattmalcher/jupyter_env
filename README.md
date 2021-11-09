@@ -20,7 +20,7 @@ docker container run --rm \
 -p 10000:8888 \
 -e JUPYTER_ENABLE_LAB=yes \
 -v "${PWD}":/home/jovyan/work \
-jupyter/scipy-notebook \
+scipy-nb-custom \
 start.sh jupyter lab --ServerApp.token=''
 ```
 

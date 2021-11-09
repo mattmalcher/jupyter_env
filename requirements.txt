@@ -1,3 +1,8 @@
-black
-jupyterlab_code_formatter
-hdbscan
+black # code formatter
+jupyterlab_code_formatter # plugin to apply black to notebook cells
+hdbscan 
+plotly # allows for some fancier 3D plots
+gensim
+elasticsearch
+boto3
+psycopg2
